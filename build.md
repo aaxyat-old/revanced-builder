@@ -3,9 +3,10 @@ Twitter: 10.0.0-release.0
 Twitch: 15.4.1  
 TikTok: 30.6.2  
 Reddit: 2023.29.0  
-Messenger: 419.0.0.10.49  
 BoostForReddit: 1.12.12  
 Trakt: 1.1.1  
+Nyx: 2.2.7  
+Sync: v23.06.30-13:39  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube or YT Music  
 
