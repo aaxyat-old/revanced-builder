@@ -1,11 +1,11 @@
 [
-    {
-      "patchName": "change-oauth-client-id",
-      "options": [
-        {
-          "key": "client-id",
-          "value": "BLXTsWd8mmGkO6un1k6Itw"
-        }
-      ]
-    }
-  ]
+  {
+    "patchName": "Change OAuth client id",
+    "options": [
+      {
+        "key": "client-id",
+        "value": "BLXTsWd8mmGkO6un1k6Itw"
+      }
+    ]
+  }
+]

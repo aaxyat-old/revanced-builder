@@ -110,5 +110,3 @@ version = "auto"
 [NyxMusic]
 apkmirror-dlurl = "https://apkmirror.com/apk/awedea/nyx-music-player"
 build-mode = "both"
-version = "auto"
-arch = "arm64-v8a"
