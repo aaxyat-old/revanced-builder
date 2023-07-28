@@ -1,7 +1,7 @@
 YouTube: 18.23.35  
 Twitter: 10.0.0-release.0  
 Twitch: 15.4.1  
-TikTok: 30.6.2   
+TikTok: 30.6.2  
 Reddit: 2023.29.0  
 Messenger: 419.0.0.10.49  
 BoostForReddit: 1.12.12  
