@@ -106,3 +106,9 @@ version = "auto"
 apkmirror-dlurl = "https://apkmirror.com/apk/trakt/trakt"
 build-mode = "both"
 version = "auto"
+
+[NyxMusic]
+apkmirror-dlurl = "https://apkmirror.com/apk/awedea/nyx-music-player"
+build-mode = "both"
+version = "auto"
+arch = "arm64-v8a"
