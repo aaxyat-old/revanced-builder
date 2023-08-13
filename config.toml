@@ -7,55 +7,31 @@ build-mindetach-module = true
 
 [YouTube]
 build-mode = "both"                                                   # 'both', 'apk' or 'module'
-excluded-patches = "custom-branding"                                  # space-seperated patches to exclude (multiline strings are not supported)
+excluded-patches = ""                                                 # space-seperated patches to exclude (multiline strings are not supported)
 included-patches = ""                                                 # space-seperated patches to include (non-excluded patches are included by default)
 version = "auto"                                                      # 'auto', 'latest', 'beta' or a custom one like '17.40.41'
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
-# [YouTube-Extended]
-# app-name = "YouTube"
-# patches-source = "inotia00/revanced-patches"
-# integrations-source = "inotia00/revanced-integrations"
-# cli-source = "inotia00/revanced-cli"
-# rv-brand = "ReVanced Extended"
-# build-mode = "both"
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
-
-# [Music]
-# build-mode = "both"
-# excluded-patches = ""
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-# apkmirror-arch = "both"                                                     # both arm64-v8a and arm-v7a
-
-# [Music-Extended]
-# app-name = "Music"
-# patches-source = "inotia00/revanced-patches"
-# integrations-source = "inotia00/revanced-integrations"
-# cli-source = "inotia00/revanced-cli"
-# rv-brand = "ReVanced Extended"
-# build-mode = "both"
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-# apkmirror-arch = "both"
+[Music]
+build-mode = "both"
+excluded-patches = ""
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
+apkmirror-arch = "both"                                                     # both arm64-v8a and arm-v7a
 
 [Twitter]
-build-mode = "both"
+build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitter-inc/twitter/"
 
 [Twitch]
-build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 
 [TikTok]
-build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
 
 [Reddit]
-build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 
 [Messenger]
-enabled = false
-build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
 apkmirror-arch = "arm64-v8a"
 
@@ -97,22 +73,23 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/joaomgcd/tasker/"
 enabled = false
 apkmonk-dlurl = "https://www.apkmonk.com/app/com.microblink.photomath/"
 
-[BoostForReddit]
-enabled = true
-apkmirror-dlurl = "https://apkmirror.com/apk/ruben-mayayo/boost-for-reddit"
+[Music-Extended] # unmaintained
+enabled = false
+app-name = "Music"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Extended"
 build-mode = "both"
-version = "auto"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
+apkmirror-arch = "both"
 
-[Trakt]
-apkmirror-dlurl = "https://apkmirror.com/apk/trakt/trakt"
+[YouTube-Extended] # unmaintained
+enabled = false
+app-name = "YouTube"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Extended"
 build-mode = "both"
-version = "auto"
-
-[Nyx]
-apkmirror-dlurl = "https://apkmirror.com/apk/awedea/nyx-music-player/"
-apkmirror-arch = "arm64-v8a"
-build-mode = "both"
-
-[Sync]
-apkmirror-dlurl = "https://apkmirror.com/apk/red-apps-ltd/sync-for-reddit/"
-build-mode = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
