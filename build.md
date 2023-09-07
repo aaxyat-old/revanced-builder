@@ -1,8 +1,8 @@
 YouTube: 18.32.39  
 Twitter: 10.5.0-release.1  
 Twitch: 15.4.1  
-TikTok: 31.1.4  
-Reddit: 2023.34.0  
+TikTok: 31.2.2  
+Reddit: 2023.35.0  
 BoostForReddit: 1.12.12  
 Trakt: 1.1.1  
 Nyx: 2.2.7  
