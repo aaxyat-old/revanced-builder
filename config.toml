@@ -56,6 +56,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 [Messenger]
 build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
+apkmirror-arch = "arm64-v8a"
 
 [Spotify]
 enabled = false
@@ -111,17 +112,18 @@ apkmirror-dlurl = "https://apkmirror.com/apk/awedea/nyx-music-player/"
 apkmirror-arch = "arm64-v8a"
 build-mode = "both"
 
-[Sync]
-apkmirror-dlurl = "https://apkmirror.com/apk/red-apps-ltd/sync-for-reddit/"
-build-mode = "both"
+#[Sync]
+#apkmirror-dlurl = "https://apkmirror.com/apk/red-apps-ltd/sync-for-reddit/"
+#build-mode = "both"
 
-[Instagram]
-apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
-build-mode = "both"
+#[Instagram]
+#apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
+#apkmirror-arch = "arm64-v8a"
+#build-mode = "both"
 
 [Lightroom]
-enabled = True
+enabled = enabled
 apkmirror-dlurl = "https://www.apkmirror.com/apk/adobe/lightroom/"
-
+apkmirror-arch = "arm64-v8a"
 
 
