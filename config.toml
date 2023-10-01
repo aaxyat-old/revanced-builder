@@ -5,12 +5,28 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
+
 [YouTube]
 build-mode = "both"                                                   # 'both', 'apk' or 'module'
-excluded-patches = ""                                                 # space-seperated patches to exclude (multiline strings are not supported)
+excluded-patches = "custom-branding"                                  # space-seperated patches to exclude (multiline strings are not supported)
 included-patches = ""                                                 # space-seperated patches to include (non-excluded patches are included by default)
 version = "auto"                                                      # 'auto', 'latest', 'beta' or a custom one like '17.40.41'
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
+
+# [YouTube-Extended]
+# app-name = "YouTube"
+# patches-source = "inotia00/revanced-patches"
+# integrations-source = "inotia00/revanced-integrations"
+# cli-source = "inotia00/revanced-cli"
+# rv-brand = "ReVanced Extended"
+# build-mode = "both"
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
+
+# [Music]
+# build-mode = "both"
+# excluded-patches = ""
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
+# apkmirror-arch = "both"                                                     # both arm64-v8a and arm-v7a
 
 [Music-Extended]
 app-name = "Music"
@@ -22,43 +38,26 @@ build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 apkmirror-arch = "both"
 
-[YouTube-Extended]
-app-name = "YouTube"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
-
-[Music]
-build-mode = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-apkmirror-arch = "both"
-
 [Twitter]
-build-mode = "apk"
-uptodown-dlurl = "https://twitter.en.uptodown.com/android"
+build-mode = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/twitter-inc/twitter/"
 
 [Twitch]
-uptodown-dlurl = "https://twitch.en.uptodown.com/android"
+build-mode = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 
 [TikTok]
-enabled = false
-uptodown-dlurl = "https://tiktok.en.uptodown.com/android"
+build-mode = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
 
 [Reddit]
-uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
+build-mode = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 
-[Lightroom]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/adobe/lightroom/"
-apkmirror-arch = "arm64-v8a + x86_64"
-
-[Messenger]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
-apkmirror-arch = "arm64-v8a"
+#[Messenger]
+#build-mode = "both"
+#apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
+#apkmirror-arch = "arm64-v8a"
 
 [Spotify]
 enabled = false
@@ -82,7 +81,7 @@ enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/windy-weather-world-inc/windy-wind-weather-forecast/"
 
 [IconPackStudio]
-enabled = false
+enabled = true
 apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
 
 [TickTick]
@@ -97,3 +96,33 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/joaomgcd/tasker/"
 [Photomath]
 enabled = false
 apkmonk-dlurl = "https://www.apkmonk.com/app/com.microblink.photomath/"
+
+#[BoostForReddit]
+#enabled = true
+#apkmirror-dlurl = "https://apkmirror.com/apk/ruben-mayayo/boost-for-reddit"
+#build-mode = "both"
+#version = "auto"
+
+#[Trakt]
+#apkmirror-dlurl = "https://apkmirror.com/apk/trakt/trakt"
+#build-mode = "both"
+#version = "auto"
+
+#[Nyx]
+#apkmirror-dlurl = "https://apkmirror.com/apk/awedea/nyx-music-player/"
+#apkmirror-arch = "arm64-v8a"
+#build-mode = "both"
+
+#[Sync]
+#apkmirror-dlurl = "https://apkmirror.com/apk/red-apps-ltd/sync-for-reddit/"
+#build-mode = "both"
+
+#[Instagram]
+#apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
+#apkmirror-arch = "arm64-v8a"
+#build-mode = "both"
+
+[Lightroom]
+enabled = true
+apkmirror-dlurl = "https://www.apkmirror.com/apk/adobe/lightroom/"
+apkmirror-arch = "arm64-v8a"
