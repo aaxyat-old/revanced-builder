@@ -13,30 +13,30 @@ included-patches = ""                                                 # space-se
 version = "auto"                                                      # 'auto', 'latest', 'beta' or a custom one like '17.40.41'
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
-[YouTube-Extended]
-app-name = "YouTube"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "Music"
-build-mode = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
-
-# [Music]
+# [YouTube-Extended]
+# app-name = "YouTube"
+# patches-source = "inotia00/revanced-patches"
+# integrations-source = "inotia00/revanced-integrations"
+# cli-source = "inotia00/revanced-cli"
+# rv-brand = "Music"
 # build-mode = "both"
-# excluded-patches = ""
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-# apkmirror-arch = "both"                                                     # both arm64-v8a and arm-v7a
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
-[Music-Extended]
-app-name = "Music"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "Music"
+[Music]
 build-mode = "both"
+excluded-patches = "custom-brandin"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-apkmirror-arch = "both"
+apkmirror-arch = "both"                                                     # both arm64-v8a and arm-v7a
+
+# [Music-Extended]
+# app-name = "Music"
+# patches-source = "inotia00/revanced-patches"
+# integrations-source = "inotia00/revanced-integrations"
+# cli-source = "inotia00/revanced-cli"
+# rv-brand = "Music"
+# build-mode = "both"
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
+# apkmirror-arch = "both"
 
 [Twitter]
 build-mode = "both"
@@ -110,6 +110,7 @@ version = "auto"
 
 [Nyx]
 apkmirror-dlurl = "https://apkmirror.com/apk/awedea/nyx-music-player/"
+apkmirror-arch = "arm64-v8a"
 build-mode = "both"
 
 #[Sync]
@@ -125,3 +126,8 @@ build-mode = "both"
 enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/adobe/lightroom/"
 apkmirror-arch = "arm64-v8a"
+
+[boost]
+apkmirror-dlurl = "https://apkmirror.com/apk/ruben-mayayo/boost-for-reddit/"
+apkmirror-arch = "arm64-v8a"
+build-mode = "both"
