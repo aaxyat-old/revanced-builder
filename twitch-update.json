@@ -1,6 +1,6 @@
 {
-  "version": "v15.4.1",
-  "versionCode": 16,
-  "zipUrl": "https://github.com/aaxyat-old/revanced-builder/releases/download/16/twitch-revanced-magisk-v15.4.1-all.zip",
+  "version": "v16.1.0",
+  "versionCode": 20,
+  "zipUrl": "https://github.com/aaxyat-old/revanced-builder/releases/download/20/twitch-revanced-magisk-v16.1.0-all.zip",
   "changelog": "https://raw.githubusercontent.com/aaxyat-old/revanced-builder/update/build.md"
 }
