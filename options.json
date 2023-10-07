@@ -1,1 +1,13 @@
-[]
+       
+[
+  {
+    "patchName": "Spoof client",
+    "options": [
+      {
+        "key": "client-id",
+        "value": "BLXTsWd8mmGkO6un1k6Itw"
+      }
+    ]
+  }
+]
+        
