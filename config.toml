@@ -13,30 +13,11 @@ included-patches = ""                                                 # space-se
 version = "auto"                                                      # 'auto', 'latest', 'beta' or a custom one like '17.40.41'
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
-# [YouTube-Extended]
-# app-name = "YouTube"
-# patches-source = "inotia00/revanced-patches"
-# integrations-source = "inotia00/revanced-integrations"
-# cli-source = "inotia00/revanced-cli"
-# rv-brand = "Music"
-# build-mode = "both"
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
-
 [Music]
 build-mode = "both"
-excluded-patches = "custom-brandin"
+excluded-patches = "custom-branding"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-apkmirror-arch = "both"                                                     # both arm64-v8a and arm-v7a
-
-# [Music-Extended]
-# app-name = "Music"
-# patches-source = "inotia00/revanced-patches"
-# integrations-source = "inotia00/revanced-integrations"
-# cli-source = "inotia00/revanced-cli"
-# rv-brand = "Music"
-# build-mode = "both"
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-# apkmirror-arch = "both"
+apkmirror-arch = "arm64-v8a"                                                     # both arm64-v8a and arm-v7a
 
 [Twitter]
 build-mode = "both"
@@ -54,19 +35,15 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-includin
 build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 
-#[Messenger]
-#build-mode = "both"
-#apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
-#apkmirror-arch = "arm64-v8a"
-
 [Spotify]
 enabled = false
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 
 [Citra]
-enabled = false
+enabled = true
 apkmirror-dlurl = "https://www.apkmirror.com/apk/citra-emulator/citra-emulator/"
 apkmirror-arch = "arm64-v8a"
+build-mode = "both"
 
 [Backdrops]
 enabled = false
@@ -81,7 +58,7 @@ enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/windy-weather-world-inc/windy-wind-weather-forecast/"
 
 [IconPackStudio]
-enabled = false
+enabled = true
 apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
 
 [TickTick]
@@ -98,10 +75,9 @@ enabled = false
 apkmonk-dlurl = "https://www.apkmonk.com/app/com.microblink.photomath/"
 
 [BoostForReddit]
-enabled = true
-apkmirror-dlurl = "https://apkmirror.com/apk/ruben-mayayo/boost-for-reddit"
+apkmirror-dlurl = "https://apkmirror.com/apk/ruben-mayayo/boost-for-reddit/"
+apkmirror-arch = "arm64-v8a"
 build-mode = "both"
-version = "auto"
 
 #[Trakt]
 #apkmirror-dlurl = "https://apkmirror.com/apk/trakt/trakt"
@@ -126,8 +102,3 @@ build-mode = "both"
 enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/adobe/lightroom/"
 apkmirror-arch = "arm64-v8a"
-
-[boost]
-apkmirror-dlurl = "https://apkmirror.com/apk/ruben-mayayo/boost-for-reddit/"
-apkmirror-arch = "arm64-v8a"
-build-mode = "both"
