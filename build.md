@@ -1,9 +1,9 @@
-YouTube: 18.38.44  
 Music: 6.22.51  
-Twitter: 10.10.0-release.0  
+YouTube: 18.38.44  
+Twitter: 10.11.0-release.0  
 Twitch: 16.1.0  
 TikTok: 30.8.4  
-Reddit: 2023.39.1  
+Reddit: 2023.40.0  
 Citra: bed6a4f12  
 IconPackStudio: 2.2 build 016  
 
@@ -14,6 +14,6 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouT
 
 Changelog:  
 CLI: j-hc/revanced-cli-4.0.1-all.jar  
-Integrations: ReVanced/revanced-integrations-0.119.1.apk  
-Patches: ReVanced/revanced-patches-2.193.0.jar  
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v2.193.0)  
+Integrations: ReVanced/revanced-integrations-0.119.2.apk  
+Patches: ReVanced/revanced-patches-2.194.0.jar  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v2.194.0)  

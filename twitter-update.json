@@ -1,6 +1,6 @@
 {
-  "version": "v10.10.0-release.0",
-  "versionCode": 25,
-  "zipUrl": "https://github.com/aaxyat-old/revanced-builder/releases/download/25/twitter-revanced-magisk-v10.10.0-release.0-all.zip",
+  "version": "v10.11.0-release.0",
+  "versionCode": 26,
+  "zipUrl": "https://github.com/aaxyat-old/revanced-builder/releases/download/26/twitter-revanced-magisk-v10.11.0-release.0-all.zip",
   "changelog": "https://raw.githubusercontent.com/aaxyat-old/revanced-builder/update/build.md"
 }
