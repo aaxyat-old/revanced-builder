@@ -20,7 +20,9 @@ apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit"
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 
 [Music]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+arch = "arm64-v8a"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 cli-source = "MorpheApp/morphe-cli"
 patches-source = "MorpheApp/morphe-patches"
 rv-brand = "Morphe"
@@ -28,8 +30,9 @@ excluded-patches = "'Custom branding'"
 
 [Google-Photos]
 arch = "arm64-v8a"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
 
 
 [TikTok]
@@ -45,6 +48,12 @@ arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch"
 uptodown-dlurl = "https://twitch.en.uptodown.com/android"
 version = "25.3.0"
+
+[Twitter]
+apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
+build-mode = "apk"
+dpi = "120-640dpi"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
 
 [Messenger]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger"
@@ -62,8 +71,7 @@ uptodown-dlurl = "https://protonvpn.en.uptodown.com/android"
 arch = "arm64-v8a"
 
 [Adobe-Lightroom]
-uptodown-dlurl = "https://adobe-lightroom-mobile.en.uptodown.com/android"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/adobe/lightroom"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.adobe.lrmobile"
 arch = "arm64-v8a"
 
 [SoundCloud]
