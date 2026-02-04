@@ -1,6 +1,7 @@
 Facebook: 490.0.0.63.82  
 Google-Photos: 7.61.0.860908034  
 Messenger: 546.0.0.35.70  
+Music: 8.40.54  
 Proton-Mail: 4.15.0  
 Proton-VPN: 5.15.70.0  
 Reddit: 2026.05.0  
