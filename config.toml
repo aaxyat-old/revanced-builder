@@ -8,6 +8,7 @@ parallel-jobs = 1
 
 [YouTube]
 arch = "arm64-v8a"
+build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 cli-source = "MorpheApp/morphe-cli"
@@ -16,10 +17,12 @@ rv-brand = "Morphe"
 excluded-patches = "'Custom branding'"
 
 [Reddit]
+build-mode = "both"
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit"
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 
 [Music]
+build-mode = "both"
 arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
@@ -29,6 +32,7 @@ rv-brand = "Morphe"
 excluded-patches = "'Custom branding'"
 
 [Google-Photos]
+build-mode = "both"
 arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
@@ -36,44 +40,53 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.a
 
 
 [TikTok]
+build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok"
 uptodown-dlurl = "https://tiktok.en.uptodown.com/android"
 
 [Facebook]
+build-mode = "both"
 uptodown-dlurl = "https://facebook.en.uptodown.com/android"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/facebook"
 arch = "arm64-v8a"
 
 [Twitch]
+build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch"
 uptodown-dlurl = "https://twitch.en.uptodown.com/android"
 version = "25.3.0"
 
 [Twitter]
+build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
 build-mode = "apk"
 dpi = "120-640dpi"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
 
 [Messenger]
+build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger"
 uptodown-dlurl = "https://facebook-messenger.en.uptodown.com/android"
 arch = "arm64-v8a"
 
 [Proton-Mail]
+build-mode = "both"
 uptodown-dlurl = "https://protonmail.en.uptodown.com/android"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/proton-technologies-ag/protonmail-encrypted-email"
 arch = "arm64-v8a"
 
 [Proton-VPN]
+build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/proton-technologies-ag/protonvpn-secure-and-free-vpn"
 uptodown-dlurl = "https://protonvpn.en.uptodown.com/android"
 arch = "arm64-v8a"
 
 [Adobe-Lightroom]
+build-mode = "both"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.adobe.lrmobile"
 arch = "arm64-v8a"
 
 [SoundCloud]
+build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/soundcloud/soundcloud-soundcloud"
 uptodown-dlurl = "http://soundcloud.en.uptodown.com/android"
