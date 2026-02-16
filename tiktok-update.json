@@ -1,6 +1,6 @@
 {
-  "version": "v36.5.4",
-  "versionCode": 59,
-  "zipUrl": "https://github.com/aaxyat-old/revanced-builder/releases/download/59/tiktok-revanced-magisk-v36.5.4-all.zip",
+  "version": "v36.5.4 (patches 5.50.2.rvp)",
+  "versionCode": 113,
+  "zipUrl": "https://github.com/aaxyat-old/revanced-builder/releases/download/113/tiktok-revanced-magisk-v36.5.4-all.zip",
   "changelog": "https://raw.githubusercontent.com/aaxyat-old/revanced-builder/update/build.md"
 }
